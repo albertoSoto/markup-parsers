@@ -2,6 +2,7 @@ package com.alberto.soto.xslt.spring;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
+
 public class AppInitializer extends
           AbstractAnnotationConfigDispatcherServletInitializer {
     
