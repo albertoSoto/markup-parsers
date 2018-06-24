@@ -31,7 +31,7 @@
             <xsl:for-each select="nodes/link">
                 <li class="list-group-item">
                     <xsl:variable name="link" select="."/>
-                    <a href=""><xsl:value-of select="."/></a>
+                    <a href="/parse/{$link}"><xsl:value-of select="."/></a>
                 </li>
             </xsl:for-each>
         </ul>

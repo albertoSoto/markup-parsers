@@ -10,8 +10,9 @@
     <heading>My first Html dynamic website</heading>
     <body>Old treasure but still useful for reporting</body>
     <nodes>
-        <link>aaa</link>
-        <link>bbb</link>
-        <link>ccc</link>
+        <link>home</link>
+        <link>employees</link>
+        <link>internal-dtd</link>
+        <link>message</link>
     </nodes>
 </note>
