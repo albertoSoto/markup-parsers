@@ -20,4 +20,20 @@
             </body>
         </html>
     </xsl:template>
+    <xsl:template match="note">
+        <h2>
+            <xsl:value-of select="heading"/>
+        </h2>
+        <p>
+            <xsl:value-of select="body"/>
+        </p>
+        <ul class="list-group">
+            <xsl:for-each select="nodes/link">
+                <li class="list-group-item">
+                    <xsl:variable name="link" select="."/>
+                    <a href=""><xsl:value-of select="."/></a>
+                </li>
+            </xsl:for-each>
+        </ul>
+    </xsl:template>
 </xsl:stylesheet>

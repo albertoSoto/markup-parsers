@@ -1,5 +1,6 @@
 package com.alberto.soto.xslt.spring;
 
+import com.alberto.soto.xslt.spring.data.FileHelper;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +14,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import java.util.List;
 
 
 @Controller
@@ -24,9 +26,9 @@ public class FrontController {
     protected final Logger log = LoggerFactory.getLogger(FrontController.class);
     @GetMapping("/")
     public String home(Model model) {
-        Resource resource = resourceLoader.getResource("classpath:employees.xml");
-        model.addAttribute("employees", resource);
-        return "employees";
+        Resource resource = resourceLoader.getResource("classpath:home.xml");
+        model.addAttribute("home", resource);
+        return "home";
     }
 
     @RequestMapping(value = "/parse/{fileRQ}", method = RequestMethod.GET)

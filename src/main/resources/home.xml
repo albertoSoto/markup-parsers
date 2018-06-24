@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE note [
+        <!ELEMENT note (heading,body,nodes)>
+        <!ELEMENT heading (#PCDATA)>
+        <!ELEMENT body (#PCDATA)>
+        <!ELEMENT nodes (link*)>
+        <!ELEMENT link (#PCDATA)>
+        ]>
+<note>
+    <heading>My first Html dynamic website</heading>
+    <body>Old treasure but still useful for reporting</body>
+    <nodes>
+        <link>aaa</link>
+        <link>bbb</link>
+        <link>ccc</link>
+    </nodes>
+</note>
