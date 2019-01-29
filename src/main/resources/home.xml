@@ -16,5 +16,6 @@
         <link>/parse/message</link>
         <link>/parse/xml-output</link>
         <link>/dynamic</link>
+        <link>/parse/hirafa</link>
     </nodes>
 </note>
