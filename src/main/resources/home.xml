@@ -11,11 +11,13 @@
     <body>Old treasure but still useful for reporting</body>
     <nodes>
         <link>/parse/home</link>
+        <link>/parse/hi-rafa</link>
+        <link>/parse/hi-students</link>
         <link>/parse/employees</link>
         <link>/parse/internal-dtd</link>
         <link>/parse/message</link>
         <link>/parse/xml-output</link>
+        <link>/parse/xml-output-2</link>
         <link>/dynamic</link>
-        <link>/parse/hirafa</link>
     </nodes>
 </note>

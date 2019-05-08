@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<students>
+    <group>Los intelestuales</group>
+    <student>
+        <name>Pepito</name>
+        <surname>Palotes</surname>
+    </student>
+    <student>
+        <name>John</name>
+        <surname>Joe</surname>
+    </student>
+</students>
