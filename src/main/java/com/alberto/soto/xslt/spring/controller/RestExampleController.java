@@ -26,4 +26,11 @@ public class RestExampleController {
         aux.setName(name);
         return new ResponseEntity<>(aux, HttpStatus.OK);
     }
+
+    @RequestMapping(value = REST_PREFIX + "/dummy", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE, headers = "Accept=*/*")
+    public ResponseEntity<Book> dummy() {
+        Book aux = new Book();
+        aux.setName("Pepito");
+        return new ResponseEntity<>(aux, HttpStatus.OK);
+    }
 }
