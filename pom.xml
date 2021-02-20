@@ -35,7 +35,6 @@
             <version>2.10.3</version>
         </dependency>
 
-
         <!-- https://mvnrepository.com/artifact/org.springframework.hateoas/spring-hateoas -->
         <dependency>
             <groupId>org.springframework.hateoas</groupId>
